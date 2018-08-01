@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
         let div = document.createElement("div");
         div.className = "divSquare";
         flexContainer.appendChild(div);
+        div.id = document.getElementsByClassName("divSquare").length;
     });
 
 
